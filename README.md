@@ -7,9 +7,9 @@
 
 <img src="https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/stats.svg" alt="crates, downloads and public repos, refreshing daily">
 
-**Rust infrastructure libraries, built so defensive code is written once at the library layer and reused downstream.**
+**Defensive code belongs in libraries, written once.**
 
-I design domain-specific Rust libraries for caching, configuration, logging, rate limiting, authentication, data access, crawling, embedding inference and LLM gatewaying. The defensive parts (security, fault tolerance, edge cases) are solved once in the library, and every downstream project inherits them.
+Every project re-solves the same hard parts: cache stampedes, clock drift, config merging, secret handling. Each wrong copy is a future outage. I wrap proven solutions into small Rust libraries so the edge cases are handled once and inherited quietly by everything downstream.
 
 ## Core crates
 
