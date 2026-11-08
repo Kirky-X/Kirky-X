@@ -13,19 +13,17 @@ I design domain-specific Rust libraries for caching, configuration, logging, rat
 
 ## Core crates
 
-| | |
-| --- | --- |
-| [![oxcache](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-oxcache.svg)](https://github.com/Kirky-X/oxcache) | [![trait-kit](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-trait-kit.svg)](https://github.com/Kirky-X/trait-kit) |
-| [![confers](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-confers.svg)](https://github.com/Kirky-X/confers) | [![inklog](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-inklog.svg)](https://github.com/Kirky-X/inklog) |
+[![oxcache](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-oxcache.svg)](https://github.com/Kirky-X/oxcache)&nbsp;&nbsp;[![trait-kit](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-trait-kit.svg)](https://github.com/Kirky-X/trait-kit)
+
+[![confers](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-confers.svg)](https://github.com/Kirky-X/confers)&nbsp;&nbsp;[![inklog](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-p-inklog.svg)](https://github.com/Kirky-X/inklog)
 
 All 18 libraries are published on crates.io. Card numbers refresh daily.
 
 ## Core skills
 
-| | |
-| --- | --- |
-| [![maliang](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-maliang.svg)](https://github.com/Kirky-X/maliang) | [![tiangang](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-tiangang.svg)](https://github.com/Kirky-X/tiangang) |
-| [![diting](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-diting.svg)](https://github.com/Kirky-X/diting) | [![kueiku](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-kueiku.svg)](https://github.com/Kirky-X/kueiku) |
+[![maliang](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-maliang.svg)](https://github.com/Kirky-X/maliang)&nbsp;&nbsp;[![tiangang](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-tiangang.svg)](https://github.com/Kirky-X/tiangang)
+
+[![diting](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-diting.svg)](https://github.com/Kirky-X/diting)&nbsp;&nbsp;[![kueiku](https://raw.githubusercontent.com/Kirky-X/Kirky-X/output/card-s-kueiku.svg)](https://github.com/Kirky-X/kueiku)
 
 17 open-source skills in total. Install any of them:
 
