@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Regenerates dist/stats.svg and dist/badge-<crate>.svg from live crates.io + GitHub data.
-# Runs in GitHub Actions (ubuntu-latest: curl, jq, gh preinstalled) and locally for previews.
+# Regenerates dist/stats.svg (crates · downloads · public repos) from live crates.io + GitHub data.
+# Runs in GitHub Actions (ubuntu-latest: curl, jq, gh, python3 preinstalled) and locally for previews.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p dist
@@ -16,15 +16,6 @@ while read -r crate; do
   dl=$(curl -sf --retry 3 --retry-delay 2 -A "$UA" "https://crates.io/api/v1/crates/$crate" | jq -r '.crate.downloads')
   total=$((total + dl))
   count=$((count + 1))
-  dl_fmt=$(fmt "$dl")
-  w=$(( ${#crate} * 7 + ${#dl_fmt} * 7 + 84 ))
-  tw=$(( w / 2 ))
-  cat > "dist/badge-${crate}.svg" <<EOF
-<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="20" role="img" aria-label="${crate}: ${dl_fmt} downloads">
-  <rect width="${w}" height="20" rx="10" fill="#222222"/>
-  <text x="${tw}" y="14" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f8f8f8">${crate} · ${dl_fmt}</text>
-</svg>
-EOF
 done < crates.txt
 
 kb=$(awk -v t="$total" 'BEGIN{printf "%.1fk", t/1000}')
