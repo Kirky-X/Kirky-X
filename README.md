@@ -64,17 +64,6 @@ npx skills add Kirky-X/<repo> --agent claude-code -y
 | [**Wudaozi** 吴道子](https://github.com/Kirky-X/wudaozi) | Media generation — text-to-image, image understanding, video with deterministic routing |
 | [**Xizhi** 羲之](https://github.com/Kirky-X/xizhi) | Icon set routing and auto-download — 21 first-class suites, Iconify fallback |
 
-## Other open source
-
-| Project | Language | What it is |
-| --- | --- | --- |
-| [**weaver**](https://github.com/Kirky-X/weaver) | Python | Enterprise AI news intelligence — DRIFT reasoning, dual-track memory, hybrid graph |
-| [**subno.ts**](https://github.com/Kirky-X/subno.ts) | TypeScript | Encrypted push notifications with public-key infrastructure, end-to-end delivery |
-| [**DevCraft-AI**](https://github.com/Kirky-X/DevCraft-AI) | Python | Unified AI development suite — 32 skills, 15 agents, hooks, OpenSpec flows |
-| [**prompts**](https://github.com/Kirky-X/prompts) | Python | Prompt management platform — semantic search, versioning, role-based access |
-| [**axon**](https://github.com/Kirky-X/axon) | Python | Requirement chaining — dependency graph analysis, planning, task decomposition |
-| [**xRelay**](https://github.com/Kirky-X/xRelay) | TypeScript | Proxy relay with automatic fallback on Vercel |
-
 ## Writing and notes
 
 Long-form notes, project deep-dives and design essays live at **[kirky-x.github.io](https://kirky-x.github.io)**.
