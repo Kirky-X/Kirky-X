@@ -6,6 +6,7 @@ cd "$(dirname "$0")/.."
 
 stage=$(mktemp -d)
 cp dist/* "$stage"/
+rm -f "$stage"/_contact.svg
 
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
